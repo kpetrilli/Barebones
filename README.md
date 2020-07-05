@@ -1,6 +1,6 @@
 # Bony
 
-Bony is a minimal and modern CSS3 template that you can use to build web pages. It is a fork of [acahir/Barebones](https://github.com/acahir/Barebones). It's goal is to be simple, modern and lightweight.
+Bony is a minimal and modern CSS3 template that you can use to build web pages. It is a fork of [acahir/Barebones](https://github.com/acahir/Barebones). Its goal is to be simple, modern and lightweight.
 
 ## Getting started
 
