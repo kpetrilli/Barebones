@@ -40,7 +40,7 @@
 
 /* CSS Variables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-html {
+root {
 
 	/* default theme: light background, dark text, blue accent */
 	--theme-hue: 0;					/* white */
