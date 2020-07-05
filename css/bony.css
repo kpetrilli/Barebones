@@ -40,7 +40,7 @@
 
 /* CSS Variables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-root {
+:root {
 
 	/* default theme: light background, dark text, blue accent */
 	--theme-hue: 0;
@@ -590,7 +590,7 @@ hr {
 	margin-top: 3rem;
 	margin-bottom: 3.5rem;
 	border-width: 0;
-	border-top: 1px solid var(--border-color-softer);
+	border-top: 1px solid var(--border-color);
 }
 
 
