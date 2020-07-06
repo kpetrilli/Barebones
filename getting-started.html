@@ -1,0 +1,130 @@
+<html lang="en">
+
+<head>
+	<title>Bony CSS</title>
+	<link type="text/css" href="css/bony.min.css" rel="stylesheet">
+	<link type="text/css" href="css/normalize.css" rel="stylesheet">
+	<link type="text/css" href="css/custom.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+	<div class="grid-container full">
+		<div>
+			<h2>Bony CSS</h2>
+		</div>
+	</div>
+
+	<div class="grid-container full">
+		<img src="http://placekitten.com/960/450" class="u-img-fit">
+	</div>
+
+	<div class="grid-container thirds">
+		<a href="idex.html" class="nav-link">Bony Showcase</a>
+		<a href="getting-started.html" class="nav-link">Getting started</a>
+		<a href="#" class="nav-link">Fork me on GitHub!</a>
+	</div>
+
+	<div class="grid-container full">
+		<div class="row">
+			<hr>
+			<h2>Getting started</h2>
+			<p>Here I am teaching you how to create a simple page with Bony. You can follow this short tutorial step-to-step or download the example files, the download link is at the <a href="#downloads">end of the page</a>.</p>
+		</div>
+	</div>
+
+	<div class="grid-container thirds">
+		<div class="toc">
+			<h5>Table of contents</h5>
+			<ul>
+				<li>Basic structure</li>
+				<li>The grid system<ul>
+						<li>Full-sized section</li>
+						<li>Subdivisions</li>
+					</ul>
+				</li>
+				<li>Representation</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="grid-container full">
+		<div class="row">
+			<h3>Basic structure</h3>
+			<p>First, let's populate a blank html page with the basics. It's important to add the meta tag in order to have your page to scale on mobile devices and different screen sizes.</p>
+			<pre><code>&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+	&lt;title&gt;Your awesome page&lt;/title&gt;
+	&lt;link type=&quot;text/css&quot; href=&quot;css/bony.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+	&lt;link type=&quot;text/css&quot; href=&quot;css/normalize.css&quot; rel=&quot;stylesheet&quot;&gt;
+	&lt;link type=&quot;text/css&quot; href=&quot;custom.css&quot; rel=&quot;stylesheet&quot;&gt;
+	&lt;link href=&quot;https://fonts.googleapis.com/css?family=Raleway:400,300,600&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+	
+	&lt;meta charset=&quot;utf-8&quot;&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</code></pre>
+			<h3 id="1">The grid system</h3>
+			<h4 id="1.1">Full-sized section</h4>
+			<p>Now we want to add some simple content, inside the body tag.</p>
+			<pre><code>&lt;div class=&quot;grid-container full&quot;&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;h2&gt;Bony CSS&lt;/h2&gt;
+		&lt;p&gt;This is my first Bony page!&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+			<p>First div: <code>grid-container</code> class allows us to make use of the grid system, while <code>full</code> class makes its child to be shown on a single -wide- column.</p>
+			<p>Second div contains our actual content. It is part of a <code>row</code> class, which is used to format text and goodies in a suitable way for text content.</p>
+
+			<h4 id="1.2">Subdivisions</h4>
+			<p>We have quite a few classes we can can choose to add after the <code>grid-container</code>, other than <code>full</code>:</p>
+			<ul>
+				<li><code>Halves</code>:&emsp;Splits the page in two columns;</li>
+				<li><code>Thirds</code>:&emsp;Breaks the content in three columns;</li>
+				<li><code>Quarters</code>:&emsp;Four whole columns for our page;</li>
+				<li><code>Fifths</code>:&emsp;Allows us to have five columns.</li>
+			</ul>
+			<p>All of these classes are responsive, columns will extend on narrower devices, and will be shown as columns on big-enough screens only. Note that columns are by default of equal width: You might need to add a custom CSS class to one of your div if you wish to obtain a 1/3 and 2/3 division.</p>
+			<hr>
+			<h3 id="2">Representation</h3>
+		</div>
+	</div>
+
+	<div class="grid-container full">
+		<p class="grid-example">Full</p>
+	</div>
+	<div class="grid-container halves">
+		<p class="grid-example">Halves</p>
+		<p class="grid-example">Halves</p>
+	</div>
+	<div class="grid-container thirds">
+		<p class="grid-example">Thirds</p>
+		<p class="grid-example">Thirds</p>
+		<p class="grid-example">Thirds</p>
+	</div>
+	<div class="grid-container quarters">
+		<p class="grid-example">Quarters</p>
+		<p class="grid-example">Quarters</p>
+		<p class="grid-example">Quarters</p>
+		<p class="grid-example">Quarters</p>
+	</div>
+	<div class="grid-container fifths">
+		<p class="grid-example">Fifths</p>
+		<p class="grid-example">Fifths</p>
+		<p class="grid-example">Fifths</p>
+		<p class="grid-example">Fifths</p>
+		<p class="grid-example">Fifths</p>
+	</div>
+
+
+</body>
+
+</html>
