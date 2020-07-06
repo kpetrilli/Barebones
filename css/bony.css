@@ -502,7 +502,8 @@ pre > code {
 	display: block;
 	padding: 1rem 1.5rem;
 	white-space: pre;
-	overflow: auto;
+	overflow-x: auto;
+	overflow-y: hidden;
 }
 
 
@@ -552,6 +553,14 @@ form {
 	margin-bottom: 2.5rem;
 }
 
+/*Table of contents*/
+.toc {
+	background-color: var(--background-color-softer);
+}
+
+.toc > ul {
+	text-indent: 1em;
+}
 
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
