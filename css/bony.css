@@ -553,7 +553,7 @@ form {
 	margin-bottom: 2.5rem;
 }
 
-/*Table of contents*/
+/* Table of contents */
 .toc {
 	background-color: var(--background-color-softer);
 }
@@ -590,7 +590,7 @@ form {
 	text-align: right;
 }
 
-/*This class makes images fit*/
+/* This class makes images fit */
 .u-img-fit {
 	max-width: 100%;
 	max-height: 100%;
