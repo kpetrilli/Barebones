@@ -1,7 +1,8 @@
 # Bony
 
-Bony is a minimal and modern CSS3 template that you can use to build web pages. It is a fork of [acahir/Barebones](https://github.com/acahir/Barebones). Its goal is to be simple, modern and lightweight.  
-Take a live look at [what Bony looks](https://kpetrilli.github.io/Bony/) like.
+Bony is a minimal and modern CSS3 template that you can use to build web pages. It is a fork of [acahir/Barebones](https://github.com/acahir/Barebones). Its goal is to be simple, modern and lightweight. 
+![Dark mode on iOS Safari](https://github.com/kpetrilli/Bony/blob/master/images/iOS_DarkMode_Preview.png)
+Take a live look at [what Bony looks](https://kpetrilli.github.io/Bony/) like: **Dark mode** is natively supported.
 
 ## Getting started
 
