@@ -376,6 +376,11 @@ input[type="button"].button-primary:focus {
 	border-color: var(--accent-color-hover);
 }
 
+button > a,
+.button > a{
+	text-decoration: none;
+}
+
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
