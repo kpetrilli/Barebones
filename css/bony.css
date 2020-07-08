@@ -573,6 +573,10 @@ form {
 	border-bottom: 1px solid var(--border-color);
 }
 
+.toc a {
+	text-decoration: none;
+}
+
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .u-full-width {
