@@ -1,7 +1,3 @@
-button > a {
-	text-decoration: none;
-}
-
 .grid-example-element {
 	background-color: var(--background-color-softer);
 	margin-top: 10px;
@@ -15,13 +11,9 @@ button > a {
 
 .toc {
 	border-radius: 3px;
+	border: 1px solid var(--border-color);
 }
 
 .toc a {
 	text-decoration: none;
-}
-
-.toc-title {
-	text-align: center;
-	border-bottom: 1px solid var(--border-color);
 }
