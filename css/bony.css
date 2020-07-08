@@ -568,9 +568,13 @@ form {
 	text-indent: 1em;
 }
 
-.toc > *:first-child:not(ul){
+.toc > *:first-child:not(ul) {
 	text-align: center;
 	border-bottom: 1px solid var(--border-color);
+}
+
+.toc a {
+	text-decoration: none;
 }
 
 /* Utilities
