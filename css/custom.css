@@ -14,6 +14,6 @@
 	border: 1px solid var(--border-color);
 }
 
-.toc a {
+.toc > a {
 	text-decoration: none;
 }
