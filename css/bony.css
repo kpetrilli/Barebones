@@ -563,6 +563,11 @@ form {
 	text-indent: 1em;
 }
 
+.toc:first-child {
+	text-align: center;
+	border-bottom: 1px solid var(--border-color);
+}
+
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .u-full-width {
